@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.3' generator='SimTrafficTM'>
+<node id='2' lat='-0.0019244206029888711' lon='-0.0027282022503499017' >
+<tag k='nombre' v='' />
+<tag k='entradasalida' v='0,0,0,,0,0,0' />
+</node>
+<node id='3' lat='0.0018250373793603377' lon='5.743583684947162E-4' >
+<tag k='nombre' v='' />
+<tag k='entradasalida' v='0,0,0,,0,0,0' />
+</node>
+<segment id='2' from='2' to='3'>
+<tag k='nCarrilesIda' v='2' />
+<tag k='nCarrilesVuelta' v='2' />
+<tag k='velMax' v='60.0' />
+</segment>
+<way id='2'>
+<seg id='2'/>
+<seg id='2'/>
+<tag k='nombre' v='Linea Provincial' />
+<tag k ='bus line' v='yes' />
+<parada id='2'/>
+<parada id='3'/>
+<parada id='2'/>
+</way>
+
+</osm>
